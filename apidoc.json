@@ -1,0 +1,21 @@
+{
+    "name": "python-server",
+    "version": "1.0.2",
+    "description": "python server api doc",
+    "title": "python server",
+    "url": "",
+    "useHostUrlAsSampleUrl": true,
+    "template": {
+        "withGenerator": false,
+        "jQueryAjaxSetup": {
+            "xhrFields": {
+                "withCredentials": true
+            },
+            "crossDomain": true
+        }
+    },
+    "header": {
+        "title": "README",
+        "filename": "README.md"
+    }
+}

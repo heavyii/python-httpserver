@@ -1,0 +1,14 @@
+{
+  "name": "python-server",
+  "version": "1.0.0",
+  "description": "see https://bottlepy.org/docs/dev/",
+  "main": "index.js",
+  "scripts": {
+    "doc": "apidoc -i . -f *.py  -o static_file"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apidoc": "^0.27.1"
+  }
+}
