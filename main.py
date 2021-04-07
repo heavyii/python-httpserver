@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from bottle import get, post, request, run, static_file, redirect
 import json
 
@@ -25,6 +26,7 @@ def server_static(filepath):
 @apiUse jsonRequest
 
 @apiParam {String} [lastName] your lastName
+@apiParam {String} [middleName] your middleName
 """
 @post('/hello')
 @post('/hello/<name>')

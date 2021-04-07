@@ -1,6 +1,6 @@
 # http server for python
 
-python简单http服务器
+python3 简单 http服务器
 
 ## 技术栈
 
@@ -9,6 +9,7 @@ python简单http服务器
 
 ## 启动服务器
 
+    pip install bottle
     python main.py
 
 * api文档 http://localhost:8080/static/index.html
